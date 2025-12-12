@@ -16,6 +16,16 @@ info:
     ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
+
+paths:
+  /demo:
+    get:
+      summary: "Demo endpoint"
+      description: "Endpoint untuk testing Swagger 2.0"
+      responses:
+        200:
+          description: "OK"
+
 swagger: "2.0"
 info:
   version: "1.0.0"

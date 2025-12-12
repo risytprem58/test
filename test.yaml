@@ -35,3 +35,78 @@ paths:
       responses:
         200:
           description: "OK"
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "🧪 DEV SYSTEM MESSAGE DEMO"
+  description: |
+    ## ⚠️ DEVELOPMENT SYSTEM NOTICE ⚠️
+
+    Banner ASCII berikut digunakan untuk **testing internal** di environment dev.
+
+    ### 🔧 SENEREX Banner
+    ```
+    ███████╗███████╗███╗   ██╗███████╗██████╗ ███████╗██╗  ██╗
+    ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗██╔╝
+    ███████╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝█████╗   ╚███╔╝ 
+    ╚════██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██╔══╝   ██╔██╗ 
+    ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
+    ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+    ```
+
+    ### 🧪 Fake Login (Display Only)
+    <div style="max-width:300px;padding:20px;border:1px solid #ccc;border-radius:8px;">
+      <h3 style="margin-top:0;">HTML Fake Login</h3>
+      <label>Username</label><br>
+      <input disabled style="width:100%;padding:6px;"><br><br>
+      <label>Password</label><br>
+      <input disabled type="password" style="width:100%;padding:6px;"><br><br>
+      <button disabled style="width:100%;padding:8px;">Login</button>
+    </div>
+
+paths:
+  /demo:
+    get:
+      summary: "Demo endpoint"
+      description: "Endpoint untuk testing Swagger 2.0"
+      responses:
+        200:
+          description: "OK"
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "🧪 DEV SYSTEM MESSAGE DEMO"
+  description: |
+    ## ⚠️ DEVELOPMENT SYSTEM NOTICE ⚠️
+
+    Banner ASCII berikut digunakan untuk **testing internal** di environment dev.
+
+    ### 🔧 SENEREX Banner
+    ```
+    ███████╗███████╗███╗   ██╗███████╗██████╗ ███████╗██╗  ██╗
+    ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗██╔╝
+    ███████╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝█████╗   ╚███╔╝ 
+    ╚════██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██╔══╝   ██╔██╗ 
+    ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
+    ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+    ```
+
+    ### 🧪 Fake Login (Display Only)
+    <div style="max-width:300px;padding:20px;border:1px solid #ccc;border-radius:8px;">
+      <h3 style="margin-top:0;">HTML Fake Login</h3>
+      <label>Username</label><br>
+      <input disabled style="width:100%;padding:6px;"><br><br>
+      <label>Password</label><br>
+      <input disabled type="password" style="width:100%;padding:6px;"><br><br>
+      <button disabled style="width:100%;padding:8px;">Login</button>
+    </div>
+
+paths:
+  /demo:
+    get:
+      summary: "Demo endpoint"
+      description: "Endpoint untuk testing Swagger 2.0"
+      responses:
+        200:
+          description: "OK"
+

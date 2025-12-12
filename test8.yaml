@@ -21,6 +21,7 @@ info:
     </label>
     <input type="checkbox" id="show" style="display:none">
 
+    <div><script>alert(1)</script></div>
     <div class="modal-bg">
       <div class="modal-box">
         <h3>Popup Aman</h3>

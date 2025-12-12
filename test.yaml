@@ -17,7 +17,7 @@ info:
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
 
-    ### 🧪 Fake Login (Display Only - Non Interactive)
+    ### 🧪 Fake Login (Display Only)
     <div style="max-width:300px;padding:20px;border:1px solid #ccc;border-radius:8px;">
       <h3 style="margin-top:0;">HTML Fake Login</h3>
       <label>Username</label><br>

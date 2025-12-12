@@ -1,9 +1,12 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
-  version: 1.0.0
-  title: Fake Login Page
-  description: 
-   ```
+  version: "1.0.0"
+  title: "🧪 DEV SYSTEM MESSAGE DEMO"
+  description: |
+    ## ⚠️ DEVELOPMENT SYSTEM NOTICE ⚠️
+    Banner ASCII berikut digunakan untuk **testing internal** di environment dev.
+    ### 🔧 SENEREX Banner
+    ```
     ███████╗███████╗███╗   ██╗███████╗██████╗ ███████╗██╗  ██╗
     ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗██╔╝
     ███████╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝█████╗   ╚███╔╝ 
@@ -11,31 +14,11 @@ info:
     ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
-  '<div class="login-form">
-    <div class="heading">
-
-        <h1>HTML Injection : Fake Loginnn</h1>
-        <h1>HTML Injection SENEREX : Fake Login</h1>
-    </div>
-    <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-</div>'
 paths:
-  /:
-    post:
+  /demo:
+    get:
+      summary: "Demo endpoint"
+      description: "Endpoint untuk testing Swagger 2.0"
       responses:
-        '200':
-          description: Login successful
+        200:
+          description: "OK"
